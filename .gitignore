@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+*.exe
+.env
+test_output.txt
