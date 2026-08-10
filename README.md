@@ -1,3 +1,5 @@
+
+
 # AirPin
 
 Spatial display app for **RayNeo Air** AR glasses. Pins your screen in 3D space with head tracking — turn your head and the content stays where it is.
@@ -99,7 +101,7 @@ All hotkeys are global — work while your game has focus.
 ```
 Your laptop screen
     │
-    │ BitBlt screen capture (120 FPS)
+    │ DXGI screen capture (120 FPS)
     │ (overlay excluded via WDA_EXCLUDEFROMCAPTURE)
     ▼
 ┌─────────────────────────────────────────────────┐
@@ -170,7 +172,7 @@ AirPin/
 - **Duplicate mode only** — glasses mirror the laptop screen (not detected as separate display)
 - **Yaw drift** — no magnetometer. Smooth Follow masks it, `Ctrl+Alt+R` to recenter
 - **Pitch tracking off by default** — enabling it causes cursor position mismatch
-- **BitBlt capture** — may not capture exclusive fullscreen games. Use borderless windowed
+- **DXGI screen capture** — may not capture exclusive fullscreen games. Use borderless windowed
 - **Audio** — needs manual audio output switch to SmartGlasses in some cases
 
 ## Tested setup
